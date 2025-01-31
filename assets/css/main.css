@@ -2054,6 +2054,44 @@ section,
   border-color: var(--contrast-color);
 }
 
+.cta-btn-more {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid color-mix(in srgb, var(--accent-color), transparent 30%);
+  color: var(--accent-color);
+}
+
+.cta-btn-more:hover {
+  color: var(--contrast-color);
+  border-color: var(--contrast-color);
+  background-color: var(--accent-color);
+}
+
+.cta-btn-more-read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent-color);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.cta-btn-more-read-more i {
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.cta-btn-more-read-more:hover i {
+  transform: translateX(5px);
+}
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
