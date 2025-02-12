@@ -1347,6 +1347,70 @@ section,
   color: #f28484;
 }
 
+.features-cards .feature-box.purple {
+  background-color: #f0e6f6;
+}
+
+.features-cards .feature-box.purple i {
+  color: #a56cc1;
+}
+
+.features-cards .feature-box.yellow {
+  background-color: #fff9e6;
+}
+
+.features-cards .feature-box.yellow i {
+  color: #f7c948;
+}
+
+.features-cards .feature-box.pink {
+  background-color: #fce4ec;
+}
+
+.features-cards .feature-box.pink i {
+  color: #f48fb1;
+}
+
+.features-cards .feature-box.teal {
+  background-color: #e0f7fa;
+}
+
+.features-cards .feature-box.teal i {
+  color: #26a69a;
+}
+
+.features-cards .feature-box.indigo {
+  background-color: #e8eaf6;
+}
+
+.features-cards .feature-box.indigo i {
+  color: #5c6bc0;
+}
+
+.features-cards .feature-box.cyan {
+  background-color: #e0f7fa;
+}
+
+.features-cards .feature-box.cyan i {
+  color: #00bcd4;
+}
+
+.features-cards .feature-box.lime {
+  background-color: #f9fbe7;
+}
+
+.features-cards .feature-box.lime i {
+  color: #cddc39;
+}
+
+.features-cards .feature-box.amber {
+  background-color: #fff8e1;
+}
+
+.features-cards .feature-box.amber i {
+  color: #ffc107;
+}
+
 /*--------------------------------------------------------------
 # Features 2 Section
 --------------------------------------------------------------*/
@@ -2385,4 +2449,8 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.info-wrapper {
+  cursor: pointer;
 }
